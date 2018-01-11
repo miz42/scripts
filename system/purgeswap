@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo swapoff -av && sudo swapon && echo "swapon : ok"

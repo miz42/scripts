@@ -1,0 +1,4 @@
+#!/bin/bash
+# exemple param="itest\e:x myfile.txt"
+#echo "" | vim -s <(printf $*) -
+test="$*" && echo "" | vim -s <(echo -n "i$test") -
