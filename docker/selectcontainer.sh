@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CMD='bash'
-if [ $1 != '' ]
+if [ -e $1 ]
 then
 	CMD=$*
 fi
